@@ -1,0 +1,88 @@
+  @-webkit-keyframes infinite-spinning {
+     from {
+       -webkit-transform: rotate(0deg);
+     }
+     to {
+       -webkit-transform: rotate(360deg);
+     }
+  }
+  @keyframes infinite-spinning {
+     0% {
+       -moz-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+       -ms-transform: rotate(0deg);
+       transform: rotate(0deg);
+     }
+     100% {
+       -moz-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+       -ms-transform: rotate(0deg);
+       transform: rotate(360deg);
+     }
+  }
+
+
+.fadeBox{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,.6);
+}
+
+.spinner{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 50px;
+    min-height: 50px;
+    margin: auto;
+    background: url(./ac.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10%;
+    display: block;
+}
+.circle{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 50px;
+    min-height: 50px;
+    margin: auto;
+    background: url(./aic.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10%;
+    display: block;
+}
+.blueCircle{
+    -webkit-animation: infinite-spinning 1s infinite linear;
+    animation: infinite-spinning 1s infinite linear;
+    width: 50px;
+    min-height: 50px;
+    margin: auto;
+    background: url(./aiblue.png) no-repeat center;
+    background-size: contain;
+    margin-top: 10%;
+    display: block;
+}
+.link{
+	text-decoration: none;
+}
+
+.hideLink{
+	position: fixed;
+	height: 20px;
+    width: 35px;
+	top: 55%;
+    left: 48.8%;
+	color: black;
+    display: block;
+    bottom: 50%;
+    background-color: whiteSmoke;
+	border-color: black;
+	border-radius: 9px;
+	border-style: outset;
+	border-width: 5px;
+	padding: 8px;
+	text-decoration: none
+	
+}
